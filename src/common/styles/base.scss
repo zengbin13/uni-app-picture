@@ -1,0 +1,35 @@
+view,
+text,
+navigator,
+input,
+image,
+swiper,
+swiper-item,
+scroll-view,
+page {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+page {
+  font-size: 28rpx;
+  color: #333;
+}
+image {
+  width: 100%;
+  display: block;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+}

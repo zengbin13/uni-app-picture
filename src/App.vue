@@ -13,5 +13,10 @@
 </script>
 
 <style>
-	/*每个页面公共css */
+	/*
+		全局引入样式文件iconfont 
+		样式文件引入不要使用@符号
+	*/
+	@import url("./common/styles/iconfont.scss");
+	@import url("./common/styles/base.scss");
 </style>
