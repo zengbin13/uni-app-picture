@@ -76,5 +76,21 @@
   },
   "mp-qq": {
     "usingComponents": true
+  },
+  "h5": {
+    "devServer": {
+      "port": 8000, //端口号
+      "disableHostCheck": true,
+      "proxy": {
+        "/api": {
+          "target": "https://service.picasso.adesk.com", //目标接口域名
+          "changeOrigin": true, //是否跨域
+          "secure": true, // 设置支持https协议的代理
+          "pathRewrite": {
+            "^/api": ""
+          } //匹配请求路径里面有 /api 会替换成https://xxxx.xxx.xxx
+        }
+      }
+    }
   }
 }
