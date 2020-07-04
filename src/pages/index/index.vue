@@ -69,6 +69,7 @@ export default {
   .home-tab-text {
     width: 60%;
     margin: 0 auto;
+    margin-bottom: 4rpx;
   }
   .home-tab-search {
     height: 100%;
@@ -80,7 +81,7 @@ export default {
     justify-content: center;
     align-items: center;
     .iconfont {
-      font-size: 44rpx;
+      font-size: 36rpx;
     }
   }
 }
